@@ -31,13 +31,7 @@ public class ContactMapActivity extends Activity {
 	
 	private void initMapButton() {
         ImageButton list = (ImageButton) findViewById(R.id.m_imageButtonMap);
-        list.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-    			Intent intent = new Intent(ContactMapActivity.this, ContactMapActivity.class);
-    			intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-    			startActivity(intent);
-            }
-        });
+        list.setEnabled(false);
 	}
 	
 	private void initSettingsButton() {

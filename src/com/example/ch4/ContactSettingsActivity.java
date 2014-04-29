@@ -43,13 +43,7 @@ public class ContactSettingsActivity extends Activity {
 	
 	private void initSettingsButton() {
         ImageButton list = (ImageButton) findViewById(R.id.s_imageButtonSettings);
-        list.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-    			Intent intent = new Intent(ContactSettingsActivity.this, ContactSettingsActivity.class);
-    			intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-    			startActivity(intent);
-            }
-        });
+        list.setEnabled(false);
 	}
 	
 	@Override

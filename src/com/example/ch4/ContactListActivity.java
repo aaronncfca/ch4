@@ -20,13 +20,7 @@ public class ContactListActivity extends Activity {
 
 	private void initListButton() {
         ImageButton list = (ImageButton) findViewById(R.id.l_imageButtonList);
-        list.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-    			Intent intent = new Intent(ContactListActivity.this, ContactListActivity.class);
-    			intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-    			startActivity(intent);
-            }
-        });
+        list.setEnabled(false);
 	}
 	
 	private void initMapButton() {
