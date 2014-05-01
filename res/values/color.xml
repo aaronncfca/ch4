@@ -2,6 +2,8 @@
 <resources>
     <color name="navbar_background">#1a1a48</color>
     <color name="toolbar_background">#bebebe</color>
-    <color name="data_entry_background">#9DF</color>
+    <color name="background_blue">#9DF</color>
+    <color name="background_grey">#B0B0BA</color>
+    <color name="background_yellow">#F0E9C8</color>
     
 </resources>

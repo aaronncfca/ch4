@@ -80,7 +80,7 @@
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/toolbar"
         android:layout_above="@+id/navbar"
-        android:background="@color/data_entry_background" >
+        android:background="@color/background_blue" >
         
         <RelativeLayout
             android:layout_width="match_parent"

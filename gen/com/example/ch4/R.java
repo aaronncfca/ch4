@@ -794,11 +794,13 @@ containing a value of this type.
         public static final int abc_split_action_bar_is_narrow=0x7f060002;
     }
     public static final class color {
-        public static final int abc_search_url_text_holo=0x7f070006;
+        public static final int abc_search_url_text_holo=0x7f070008;
         public static final int abc_search_url_text_normal=0x7f070000;
         public static final int abc_search_url_text_pressed=0x7f070002;
         public static final int abc_search_url_text_selected=0x7f070001;
-        public static final int data_entry_background=0x7f070005;
+        public static final int background_blue=0x7f070005;
+        public static final int background_grey=0x7f070006;
+        public static final int background_yellow=0x7f070007;
         public static final int navbar_background=0x7f070003;
         public static final int toolbar_background=0x7f070004;
     }
@@ -1003,20 +1005,20 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f050016;
         public static final int action_menu_presenter=0x7f050017;
         public static final int action_mode_close_button=0x7f050024;
-        public static final int action_settings=0x7f050068;
+        public static final int action_settings=0x7f050073;
         public static final int activity_chooser_view_content=0x7f050025;
         public static final int always=0x7f05000b;
         public static final int autotext=0x7f05003c;
         public static final int beginning=0x7f050011;
-        public static final int birthdayPicker=0x7f050063;
+        public static final int birthdayPicker=0x7f05006e;
         public static final int btnBirthday=0x7f050054;
-        public static final int btnCancel=0x7f050065;
-        public static final int btnOk=0x7f050067;
+        public static final int btnCancel=0x7f050070;
+        public static final int btnOk=0x7f050072;
         public static final int buttonSave=0x7f050043;
         public static final int checkbox=0x7f05002d;
         public static final int collapseActionView=0x7f05000d;
-        public static final int container=0x7f050061;
-        public static final int dateSeletLayout=0x7f050062;
+        public static final int container=0x7f05006c;
+        public static final int dateSeletLayout=0x7f05006d;
         public static final int default_activity_button=0x7f050028;
         public static final int dialog=0x7f05000e;
         public static final int disableHome=0x7f050008;
@@ -1059,10 +1061,17 @@ containing a value of this type.
         public static final int progress_circular=0x7f050018;
         public static final int progress_horizontal=0x7f050019;
         public static final int radio=0x7f05002f;
-        public static final int s_imageButtonList=0x7f05005e;
-        public static final int s_imageButtonMap=0x7f05005f;
-        public static final int s_imageButtonSettings=0x7f050060;
-        public static final int s_navbar=0x7f05005d;
+        public static final int radioAscending=0x7f050065;
+        public static final int radioBirthday=0x7f050062;
+        public static final int radioBlue=0x7f050069;
+        public static final int radioCity=0x7f050061;
+        public static final int radioDescending=0x7f050066;
+        public static final int radioGrey=0x7f05006a;
+        public static final int radioGroup1=0x7f05005f;
+        public static final int radioGroup2=0x7f050064;
+        public static final int radioGroup3=0x7f050068;
+        public static final int radioName=0x7f050060;
+        public static final int radioYellow=0x7f05006b;
         public static final int scrollView1=0x7f050044;
         public static final int search_badge=0x7f050032;
         public static final int search_bar=0x7f050031;
@@ -1074,6 +1083,7 @@ containing a value of this type.
         public static final int search_plate=0x7f050036;
         public static final int search_src_text=0x7f050037;
         public static final int search_voice_btn=0x7f05003b;
+        public static final int settingsContainer=0x7f05005d;
         public static final int shortcut=0x7f05002e;
         public static final int showCustom=0x7f050007;
         public static final int showHome=0x7f050004;
@@ -1081,8 +1091,8 @@ containing a value of this type.
         public static final int split_action_bar=0x7f05001e;
         public static final int submit_area=0x7f050039;
         public static final int tabMode=0x7f050002;
-        public static final int tableRow1=0x7f050064;
-        public static final int tableRow2=0x7f050066;
+        public static final int tableRow1=0x7f05006f;
+        public static final int tableRow2=0x7f050071;
         public static final int textAddress=0x7f050047;
         public static final int textBday=0x7f050052;
         public static final int textBirthday=0x7f050053;
@@ -1090,6 +1100,9 @@ containing a value of this type.
         public static final int textContact=0x7f050045;
         public static final int textEMail=0x7f050051;
         public static final int textHome=0x7f05004d;
+        public static final int textView1=0x7f05005e;
+        public static final int textView2=0x7f050063;
+        public static final int textView3=0x7f050067;
         public static final int title=0x7f05002b;
         public static final int toggleButtonEdit=0x7f050042;
         public static final int toolbar=0x7f050041;
